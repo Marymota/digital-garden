@@ -1,0 +1,19 @@
+collections:
+  topics:
+    output: true
+
+defaults:
+- scope:
+    path: ""
+    type: "topics"
+  values:
+    layout: "topics"
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "posts"
+- scope:
+    path: ""
+  values:
+    layout: "default"
